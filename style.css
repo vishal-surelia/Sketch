@@ -1,8 +1,42 @@
 body{
-    background-color: black;
+    background-image: url(/img/mountain.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:4px
 }
 
-*{
-    color: white
-    
+h1{
+    color:rgb(163, 149, 230);
+}
+
+
+.numb{
+    color: black;
+    width: 80px;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.option{
+
+    display: flex;
+    gap: 5px;
+}
+
+#colorSelect{
+    height: 25px;
+    border-radius: 5px;
+}
+.change,.erase,.paint,.random{
+    background-color: aqua;
+    color: red;
+    border-radius: 5px;
+    height: 27px;
+}
+
+.container{
+    display: flex;
+    gap:120px;
 }
